@@ -55,7 +55,8 @@
     position: fixed;
     bottom: 0;
     right: 0;
-    height: 50px;
+    height: 12%;
+    width: 10%;
     background: darkgray;
     color: white;
     font-family: sans-serif;
@@ -66,12 +67,14 @@
     align-items: center;
     border-radius: 12px 0 0 12px;
     margin-bottom: 20px;
+    font-size: x-large;
 }
 .a1__Bottom {
     position: fixed;
-    top: 0;
+    top: 16px;
     right: 0;
-    height: 50px;
+    height: 12%;
+    width: 10%;
     background: darkgray;
     color: white;
     font-family: sans-serif;
@@ -82,6 +85,7 @@
     align-items: center;
     border-radius: 12px 0 0 12px;
     margin-bottom: 20px;
+    font-size: x-large;
 }
 .prog {
     background-image: url(https://sites.google.com/site/informaticalol4521/_/rsrc/1414539291538/portada-1/wallpaper-informatica_2.jpg);
