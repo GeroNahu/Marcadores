@@ -55,8 +55,8 @@
     position: fixed;
     bottom: 0;
     right: 0;
-    height: 8%;
-    width: 12%;
+    height: 75px;
+    width: 175px;
     background: darkgray;
     color: white;
     font-family: sans-serif;
@@ -73,8 +73,8 @@
     position: fixed;
     top: 16px;
     right: 0;
-    height: 8%;
-    width: 12%;
+    height: 75px;
+    width: 110px;
     background: darkgray;
     color: white;
     font-family: sans-serif;
