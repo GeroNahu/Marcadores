@@ -35,6 +35,7 @@
     width: 100px;
     height: 100px;
     border-radius: 50px;
+    margin-left: 18%;
 }
 .encabezado__main-ul-p {
     margin-left: auto;
@@ -53,6 +54,22 @@
 .a2__Bottom {
     position: fixed;
     bottom: 0;
+    right: 0;
+    height: 50px;
+    background: darkgray;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    border-radius: 12px 0 0 12px;
+    margin-bottom: 20px;
+}
+.a1__Bottom {
+    position: fixed;
+    top: 0;
     right: 0;
     height: 50px;
     background: darkgray;
