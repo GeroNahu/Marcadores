@@ -121,6 +121,12 @@ a {
     text-transform: uppercase;
     color:rgb(17, 167, 109)
 }
+.main__h1-in {
+    text-align: center;
+    font-size: 115px;
+    text-transform: uppercase;
+    color:rgb(17, 167, 109)
+}
 .main__pageContent-mainContent-FCA-UNC-h2 {
     font-size: 55px;
     color: rgb(20, 34, 34);
