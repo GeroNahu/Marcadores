@@ -394,4 +394,8 @@ a {
     .footer {
         font-size: small;
     }
+    .footer1 {
+        font-size: small;
+        color: #fff;
+    }
 }
