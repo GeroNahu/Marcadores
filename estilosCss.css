@@ -88,10 +88,11 @@
     width: 100%;
 }
 .agro {
-    background-image: url(https://i.pinimg.com/originals/2b/e6/12/2be61219e72a96deb3e75deb02552864.jpg);
+    /* background-image: url(https://i.pinimg.com/originals/2b/e6/12/2be61219e72a96deb3e75deb02552864.jpg); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: rgb(51, 56, 198);
     width: 100%;
 }
 .prog {
@@ -147,7 +148,10 @@ a {
     width: 90px;
     height: 90px;
     border-radius: 15%;
-    
+}
+.main__pageContent-mainContent-FCA-UNC-ul{
+    display:flex;
+    flex-wrap: wrap;
 }
 .main__div {
     line-height: 3;
@@ -189,8 +193,8 @@ a {
     display: inline-block;
 }
 .main__pageContent-mainContent-FCA-UNC-p {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 2px;
+    margin-right: 2px;
     max-width: 90px;
     background-color: #222;
     color: #fff;
