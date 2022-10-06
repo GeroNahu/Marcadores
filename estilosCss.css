@@ -88,11 +88,10 @@
     width: 100%;
 }
 .agro {
-    /* background-image: url(https://i.pinimg.com/originals/2b/e6/12/2be61219e72a96deb3e75deb02552864.jpg); */
+    background-image: url(https://i.pinimg.com/originals/2b/e6/12/2be61219e72a96deb3e75deb02552864.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgb(51, 56, 198);
     width: 100%;
 }
 .prog {
