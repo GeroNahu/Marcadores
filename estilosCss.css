@@ -1,55 +1,286 @@
 .header__ul {
-    display: flex;
-    height: 200px;
-    margin: 0;
-    padding: 0;
-    justify-content: start;
+  display: flex;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+  justify-content: start;
 }
 .header__ul2 {
+  display: none;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+  justify-content: start;
+}
+.header__ul-li {
+  margin: 5px;
+  padding: 15px;
+  align-items: center;
+}
+.header__ul-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  margin: auto;
+  box-shadow: 3px 3px 10px 0 #000;
+}
+.header__ul-li-a {
+  display: flex;
+  flex-direction: column;
+}
+.header__ul-p {
+  margin-left: auto;
+  margin-right: auto;
+  margin: 2px;
+  background-color: rgb(87, 88, 24);
+  color: rgb(31, 24, 95);
+  font-family: "WindSong", cursive;
+  padding: 0px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  display: block;
+  width: 150px;
+  box-shadow: 5px 5px 10px 0 #000;
+  text-shadow: 3px 3px 15px #fff;
+}
+.body {
+  margin: 0;
+}
+.a2__Bottom {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 40px;
+  width: 130px;
+  background: darkgray;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  border-radius: 12px 0 0 12px;
+  margin-bottom: 20px;
+  font-size: large;
+}
+.a1__Bottom {
+  position: fixed;
+  top: 16px;
+  right: 0;
+  height: 40px;
+  width: 75px;
+  background: darkgray;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  border-radius: 12px 0 0 12px;
+  margin-bottom: 20px;
+  font-size: large;
+}
+.in {
+  background-image: url(https://www.gestionpasiva.com/wp-content/uploads/ejemplo-de-fondo-indexado.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.agro {
+  background-image: url(https://i.pinimg.com/originals/2b/e6/12/2be61219e72a96deb3e75deb02552864.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.prog {
+  background-image: url(https://sites.google.com/site/informaticalol4521/_/rsrc/1414539291538/portada-1/wallpaper-informatica_2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.mainindex {
+  height: 70vh;
+}
+.pageContent {
+  display: flex;
+  justify-content: space-between;
+}
+.main__h1 {
+  text-align: center;
+  font-size: 95px;
+  text-transform: uppercase;
+  color: rgb(17, 167, 109);
+}
+.main__h1-in {
+  text-align: center;
+  font-size: 115px;
+  text-transform: uppercase;
+  color: rgb(17, 167, 109);
+}
+.main__pageContent-mainContent-FCA-UNC-h2 {
+  font-size: 45px;
+  color: rgb(20, 34, 34);
+}
+.main__pageContent-mainContent-FCA-UNC-h3 {
+  font-size: 40px;
+  color: rgb(100, 54, 54);
+}
+.main__pageContent-mainContent-FCA-UNC-h4 {
+  font-size: 30px;
+  color: rgb(100, 54, 54);
+}
+.main__pageContent-mainContent-FCA-UNC-h5 {
+  font-size: 15px;
+  color: rgb(100, 54, 54);
+}
+.main__pageContent-mainContent-FCA-UNC-img {
+  width: 110px;
+  height: 110px;
+  border-radius: 15%;
+  margin: 0 5px;
+}
+.main__pageContent-mainContent-FCA-UNC-ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main__pageContent-mainContent-FCA-UNC-p {
+  max-width: 110px;
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 0px;
+  text-align: center;
+  font-size: 17px;
+  margin: 9px 5px;
+}
+.main__div {
+  line-height: 3;
+}
+.gifs1 {
+  position: fixed;
+  top: 1vh;
+  right: 20vw;
+  width: 18vh;
+  z-index: -1;
+}
+.gifs2 {
+  position: fixed;
+  top: 60vh;
+  right: 0;
+  width: 18vh;
+}
+.gifs3 {
+  position: fixed;
+  top: 17vh;
+  right: 0;
+  width: 18vh;
+}
+.gifs4 {
+  position: fixed;
+  top: 75vh;
+  right: 20vw;
+  width: 18vh;
+  z-index: -1;
+}
+.gifs5 {
+  position: fixed;
+  top: 75vh;
+  right: 20vw;
+  width: 18vh;
+  z-index: -1;
+}
+.FCA-UNC1 {
+  display: inline-block;
+}
+
+@media only screen and (max-width: 800px) {
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+  .header__ul {
     display: none;
     height: 200px;
     margin: 0;
     padding: 0;
     justify-content: start;
-}
-.header__ul-li {
-    margin: 5PX;
-    padding: 15px;
+  }
+  .header__ul2 {
+    display: flex;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    justify-content: start;
     align-items: center;
-}
-.header__ul-img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50px;
+  }
+  .header__ul-img2 {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
     margin: auto;
     box-shadow: 3px 3px 10px 0 #000;
-}
-.header__ul-li-a {
+  }
+  .header__ul-li2 {
+    margin: 0px;
+    padding: 5px;
+    align-items: center;
+  }
+  .header__ul-li-a2 {
     display: flex;
     flex-direction: column;
-}
-.header__ul-p {
+  }
+  .header__ul-p2 {
+    background-color: rgb(195, 197, 56);
+    color: rgb(33, 10, 241);
+    font-family: "WinadSong", cursive;
+    padding: 0px;
+    text-align: center;
+    font-size: 9px;
+    font-weight: bold;
+    display: block;
+    width: 65px;
+    box-shadow: 5px 5px 10px 0 #000;
+    text-shadow: 3px 3px 10px #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 2px;
+  }
+  .header__ul-p {
     margin-left: auto;
     margin-right: auto;
     margin: 2px;
     background-color: rgb(87, 88, 24);
     color: rgb(31, 24, 95);
-    font-family: 'WindSong', cursive;
+    font-family: "WindSong", cursive;
     padding: 0px;
     text-align: center;
-    font-size: 22px;
+    font-size: 9px;
     font-weight: 700;
     display: block;
-    width: 150px;
+    width: 50px;
     box-shadow: 5px 5px 10px 0 #000;
     text-shadow: 3px 3px 15px #fff;
-}
-.a2__Bottom {
+  }
+  .a2__Bottom2 {
     position: fixed;
     bottom: 0;
     right: 0;
-    height: 40px;
-    width: 130px;
+    height: 25px;
+    width: 45px;
     background: darkgray;
     color: white;
     font-family: sans-serif;
@@ -61,13 +292,13 @@
     border-radius: 12px 0 0 12px;
     margin-bottom: 20px;
     font-size: large;
-}
-.a1__Bottom {
+  }
+  .a1__Bottom2 {
     position: fixed;
     top: 16px;
     right: 0;
-    height: 40px;
-    width: 75px;
+    height: 25px;
+    width: 45px;
     background: darkgray;
     color: white;
     font-family: sans-serif;
@@ -79,335 +310,105 @@
     border-radius: 12px 0 0 12px;
     margin-bottom: 20px;
     font-size: large;
-}
-.in {
-    background-image: url(https://www.gestionpasiva.com/wp-content/uploads/ejemplo-de-fondo-indexado.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-}
-.agro {
-    background-image: url(https://i.pinimg.com/originals/2b/e6/12/2be61219e72a96deb3e75deb02552864.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-}
-.prog {
-    background-image: url(https://sites.google.com/site/informaticalol4521/_/rsrc/1414539291538/portada-1/wallpaper-informatica_2.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-a {
-    text-decoration: none;
-}
-.mainindex {
-    height: 70vh;
-}
-.pageContent {
-    display: flex;
-    justify-content: space-between;
-}
-.main__h1 {
+  }
+  .mainContent {
+    justify-content: center;
+  }
+  .main__h1-in {
     text-align: center;
-    font-size: 95px;
+    font-size: 265%;
     text-transform: uppercase;
-    color:rgb(17, 167, 109)
-}
-.main__h1-in {
+    color: rgb(17, 167, 109);
+    padding-top: 125px;
+  }
+  .main__h1 {
     text-align: center;
-    font-size: 115px;
+    font-size: 35px;
     text-transform: uppercase;
-    color:rgb(17, 167, 109)
-}
-.main__pageContent-mainContent-FCA-UNC-h2 {
-    font-size: 45px;
-    color: rgb(20, 34, 34);
-}
-.main__pageContent-mainContent-FCA-UNC-h3 {
-    font-size: 40px;
-    color: rgb(100, 54, 54);;
-}
-.main__pageContent-mainContent-FCA-UNC-h4 {
-    font-size: 30px;
-    color: rgb(100, 54, 54);;
-}
-.main__pageContent-mainContent-FCA-UNC-h5 {
+    color: rgb(17, 167, 109);
+  }
+  .main__pageContent-mainContent-FCA-UNC-h2 {
+    font-size: 20px;
+    color: rgb(70, 95, 30);
+  }
+  .main__pageContent-mainContent-FCA-UNC-h3 {
     font-size: 15px;
-    color: rgb(100, 54, 54);;
-}
-.main__pageContent-mainContent-FCA-UNC-img {
-    width: 110px;
-    height: 110px;
+    color: rgb(142, 175, 23);
+  }
+  .main__pageContent-mainContent-FCA-UNC-h4 {
+    font-size: 12px;
+    color: rgb(86, 151, 43);
+  }
+  .main__pageContent-mainContent-FCA-UNC-h5 {
+    font-size: 9px;
+    color: rgb(70, 143, 21);
+  }
+  .main__pageContent-mainContent-FCA-UNC-img {
+    width: 70px;
+    height: 70px;
     border-radius: 15%;
-    margin: 0 5px;
-}
-.main__pageContent-mainContent-FCA-UNC-ul{
-    display:flex;
+  }
+  .main__pageContent-mainContent-FCA-UNC-ul {
+    display: flex;
     flex-wrap: wrap;
-}
-.main__pageContent-mainContent-FCA-UNC-p {
-
-    max-width: 110px;
+    max-width: 100vw;
+  }
+  .main__pageContent-mainContent-FCA-UNC-p {
     background-color: #222;
     color: #fff;
     font: italic smaller sans-serif;
     padding: 0px;
     text-align: center;
-    font-size: 17px;
-    margin: 9px 5px;
-}
-.main__div {
-    line-height: 3;
-}
-.gifs1{
-    position: fixed;
-    top: 1vh;
-    right: 20vw;
-    width: 18vh;
-    z-index: -1;
-}
-.gifs2{
-    position: fixed;
-    top: 60vh;
-    right: 0;
-    width: 18vh;
-}
-.gifs3{
-    position: fixed;
-    top: 17vh;
-    right: 0;
-    width: 18vh;
-}
-.gifs4{
-    position: fixed;
-    top:75vh;
-    right: 20vw;
-    width: 18vh;
-    z-index: -1;
-}
-.gifs5{
-    position: fixed;
-    top:75vh;
-    right: 20vw;
-    width: 18vh;
-    z-index: -1;
-}
-.FCA-UNC1 {
+    font-size: 11px;
+    margin: 0 5px;
+    width: 70px;
+  }
+  .FCA-UNC {
+    display: flex;
+    flex-direction: column;
+  }
+  .FCA-UNC1 {
     display: inline-block;
-}
-
-
-@media only screen and (max-width: 800px) {
-    .container2 {
-        display: flex;
-        flex-direction: column;
-        width: auto;
-    }
-    .header__ul {
-        display: none;
-        height: 200px;
-        margin: 0;
-        padding: 0;
-        justify-content: start;
-    }
-    .header__ul2 {
-        display: flex;
-        height: 100px;
-        margin: 0;
-        padding: 0;
-        justify-content: start;
-        align-items: center;
-    }
-    .header__ul-img2 {
-        width: 55px;
-        height: 55px;
-        border-radius: 50%;
-        margin: auto;
-        box-shadow: 3px 3px 10px 0 #000;
-    }
-    .header__ul-li2 {
-        margin: 0px;
-        padding: 5px;
-        align-items: center;
-    }
-    .header__ul-li-a2 {
-        display: flex;
-        flex-direction: column;
-    }
-    .header__ul-p2 {
-        background-color: rgb(195, 197, 56);
-        color: rgb(33, 10, 241);
-        font-family: 'WinadSong', cursive;
-        padding: 0px;
-        text-align: center;
-        font-size: 9px;
-        font-weight: bold;
-        display: block;
-        width: 65px;
-        box-shadow: 5px 5px 10px 0 #000;
-        text-shadow: 3px 3px 10px #fff;
-        margin-left: auto;
-        margin-right: auto;
-        margin: 2px;
-    }
-    .header__ul-p {
-        margin-left: auto;
-        margin-right: auto;
-        margin: 2px;
-        background-color: rgb(87, 88, 24);
-        color: rgb(31, 24, 95);
-        font-family: 'WindSong', cursive;
-        padding: 0px;
-        text-align: center;
-        font-size: 9px;
-        font-weight: 700;
-        display: block;
-        width: 50px;
-        box-shadow: 5px 5px 10px 0 #000;
-        text-shadow: 3px 3px 15px #fff;
-    }
-    .a2__Bottom2 {
-        position: fixed;
-        bottom: 0;
-        right: 0;
-        height: 25px;
-        width: 45px;
-        background: darkgray;
-        color: white;
-        font-family: sans-serif;
-        font-weight: bold;
-        text-decoration: none;
-        padding: 8px;
-        display: flex;
-        align-items: center;
-        border-radius: 12px 0 0 12px;
-        margin-bottom: 20px;
-        font-size: large;
-    }
-    .a1__Bottom2 {
-        position: fixed;
-        top: 16px;
-        right: 0;
-        height: 25px;
-        width: 45px;
-        background: darkgray;
-        color: white;
-        font-family: sans-serif;
-        font-weight: bold;
-        text-decoration: none;
-        padding: 8px;
-        display: flex;
-        align-items: center;
-        border-radius: 12px 0 0 12px;
-        margin-bottom: 20px;
-        font-size: large;
-    }
-    .mainContent{
-        justify-content: center;
-    }
-    .main__h1-in {
-        text-align: center;
-        font-size: 265%;
-        text-transform: uppercase;
-        color:rgb(17, 167, 109);
-        padding-top: 125px;
-    }
-    .main__h1 {
-        text-align: center;
-        font-size: 35px;
-        text-transform: uppercase;
-        color:rgb(17, 167, 109)
-    }
-    .main__pageContent-mainContent-FCA-UNC-h2 {
-        font-size: 20px;
-        color: rgb(70, 95, 30);
-    }
-    .main__pageContent-mainContent-FCA-UNC-h3 {
-        font-size: 15px;
-        color: rgb(142, 175, 23);;
-    }
-    .main__pageContent-mainContent-FCA-UNC-h4 {
-        font-size: 12px;
-        color: rgb(86, 151, 43);;
-    }
-    .main__pageContent-mainContent-FCA-UNC-h5 {
-        font-size: 9px;
-        color: rgb(70, 143, 21);;
-    }
-    .main__pageContent-mainContent-FCA-UNC-img {
-        width: 70px;
-        height: 70px;
-        border-radius:15%;
-    }
-    .main__pageContent-mainContent-FCA-UNC-ul{
-        display:flex;
-        flex-wrap: wrap;
-        max-width: 100vw;
-    }
-    .main__pageContent-mainContent-FCA-UNC-p {
-        background-color: #222;
-        color: #fff;
-        font: italic smaller sans-serif;
-        padding: 0px;
-        text-align: center;
-        font-size: 11px;
-        margin: 0 5px;
-        width: 70px;
-    }
-    .FCA-UNC {
-        display: flex;
-        flex-direction: column;
-    }
-    .FCA-UNC1 {
-        display: inline-block;
-        height: min-content;
-        width: 70px;
-        margin-right: 5px;
-    }
-    .gifs1{
-        position: fixed;
-        top: 10vh;
-        right: 2vw;
-        width: 45px;
-    }
-    .gifs2{
-        position: fixed;
-        top: 37vh;
-        right: 2vw;
-        width: 45px;
-    }
-    .gifs3{
-        position: fixed;
-        top: 63vh;
-        right: 2vw;
-        width: 45px;
-    }
-    .gifs4{
-        position: fixed;
-        top: 85vh;
-        right: 2vw;
-        width: 45px;
-    }
-    .gifs5{
-        position: fixed;
-        top: 22vh;
-        right: 8vw;
-        width: 65px;
-        z-index: 0;
-    }
-    .footer {
-        font-size: small;
-    }
-    .footer1 {
-        font-size: small;
-        color: #fff;
-    }
+    height: min-content;
+    width: 70px;
+    margin-right: 5px;
+  }
+  .gifs1 {
+    position: fixed;
+    top: 10vh;
+    right: 2vw;
+    width: 45px;
+  }
+  .gifs2 {
+    position: fixed;
+    top: 37vh;
+    right: 2vw;
+    width: 45px;
+  }
+  .gifs3 {
+    position: fixed;
+    top: 63vh;
+    right: 2vw;
+    width: 45px;
+  }
+  .gifs4 {
+    position: fixed;
+    top: 85vh;
+    right: 2vw;
+    width: 45px;
+  }
+  .gifs5 {
+    position: fixed;
+    top: 22vh;
+    right: 8vw;
+    width: 65px;
+    z-index: 0;
+  }
+  .footer {
+    font-size: small;
+  }
+  .footer1 {
+    font-size: small;
+    color: #fff;
+  }
 }
