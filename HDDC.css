@@ -1,0 +1,337 @@
+.header__ul {
+  display: flex;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+  justify-content: start;
+}
+.header__ul2 {
+  display: none;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+  justify-content: start;
+}
+.header__ul-li {
+  margin: 5px;
+  padding: 15px;
+  align-items: center;
+}
+.header__ul-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  margin: auto;
+  box-shadow: 3px 3px 10px 0 #000;
+}
+.header__ul-li-a {
+  display: flex;
+  flex-direction: column;
+}
+.header__ul-p {
+  margin-left: auto;
+  margin-right: auto;
+  margin: 2px;
+  background-color: rgb(87, 88, 24);
+  color: rgb(31, 24, 95);
+  font-family: "WindSong", cursive;
+  padding: 0px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  display: block;
+  width: 150px;
+  box-shadow: 5px 5px 10px 0 #000;
+  text-shadow: 3px 3px 15px #fff;
+}
+.body {
+  margin: 0;
+}
+.a2__Bottom {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 40px;
+  width: 130px;
+  background: darkgray;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  border-radius: 12px 0 0 12px;
+  margin-bottom: 20px;
+  font-size: large;
+}
+.a1__Bottom {
+  position: fixed;
+  top: 16px;
+  right: 0;
+  height: 40px;
+  width: 75px;
+  background: darkgray;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  border-radius: 12px 0 0 12px;
+  margin-bottom: 20px;
+  font-size: large;
+}
+.HDDC {
+  background-image: url(imagenes/olla.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.mainindex {
+  height: 70vh;
+}
+.pageContent {
+  display: flex;
+  justify-content: space-between;
+}
+.main__h1 {
+  text-align: center;
+  font-size: 95px;
+  text-transform: uppercase;
+  color: rgb(17, 167, 109);
+}
+.main__h1-in {
+  text-align: center;
+  font-size: 115px;
+  text-transform: uppercase;
+  color: rgb(17, 167, 109);
+}
+.main__pageContent-mainContent-FCA-UNC-h2 {
+  font-size: 45px;
+  color: rgb(20, 34, 34);
+}
+.main__pageContent-mainContent-FCA-UNC-h3 {
+  font-size: 40px;
+  color: rgb(100, 54, 54);
+}
+.main__pageContent-mainContent-FCA-UNC-h4 {
+  font-size: 30px;
+  color: rgb(100, 54, 54);
+}
+.main__pageContent-mainContent-FCA-UNC-h5 {
+  font-size: 15px;
+  color: rgb(100, 54, 54);
+}
+.main__pageContent-mainContent-FCA-UNC-img {
+  width: 110px;
+  height: 110px;
+  border-radius: 15%;
+  margin: 0 5px;
+}
+.main__pageContent-mainContent-FCA-UNC-ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main__pageContent-mainContent-FCA-UNC-p {
+  max-width: 110px;
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 0px;
+  text-align: center;
+  font-size: 17px;
+  margin: 9px 5px;
+}
+.main__div {
+  line-height: 3;
+}
+.FCA-UNC1 {
+  display: inline-block;
+}
+
+@media only screen and (max-width: 800px) {
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+  .header__ul {
+    display: none;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    justify-content: start;
+  }
+  .header__ul2 {
+    display: flex;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    justify-content: start;
+    align-items: center;
+  }
+  .header__ul-img2 {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin: auto;
+    box-shadow: 3px 3px 10px 0 #000;
+  }
+  .header__ul-li2 {
+    margin: 0px;
+    padding: 5px;
+    align-items: center;
+  }
+  .header__ul-li-a2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .header__ul-p2 {
+    background-color: rgb(195, 197, 56);
+    color: rgb(33, 10, 241);
+    font-family: "WinadSong", cursive;
+    padding: 0px;
+    text-align: center;
+    font-size: 9px;
+    font-weight: bold;
+    display: block;
+    width: 65px;
+    box-shadow: 5px 5px 10px 0 #000;
+    text-shadow: 3px 3px 10px #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 2px;
+  }
+  .header__ul-p {
+    margin-left: auto;
+    margin-right: auto;
+    margin: 2px;
+    background-color: rgb(87, 88, 24);
+    color: rgb(31, 24, 95);
+    font-family: "WindSong", cursive;
+    padding: 0px;
+    text-align: center;
+    font-size: 9px;
+    font-weight: 700;
+    display: block;
+    width: 50px;
+    box-shadow: 5px 5px 10px 0 #000;
+    text-shadow: 3px 3px 15px #fff;
+  }
+  .a2__Bottom2 {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 25px;
+    width: 45px;
+    background: darkgray;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    border-radius: 12px 0 0 12px;
+    margin-bottom: 20px;
+    font-size: large;
+  }
+  .a1__Bottom2 {
+    position: fixed;
+    top: 16px;
+    right: 0;
+    height: 25px;
+    width: 45px;
+    background: darkgray;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    border-radius: 12px 0 0 12px;
+    margin-bottom: 20px;
+    font-size: large;
+  }
+  .mainContent {
+    justify-content: center;
+  }
+  .main__h1-in {
+    text-align: center;
+    font-size: 265%;
+    text-transform: uppercase;
+    color: rgb(17, 167, 109);
+    padding-top: 125px;
+  }
+  .main__h1 {
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: rgb(17, 167, 109);
+  }
+  .main__pageContent-mainContent-FCA-UNC-h2 {
+    font-size: 20px;
+    color: rgb(70, 95, 30);
+  }
+  .main__pageContent-mainContent-FCA-UNC-h3 {
+    font-size: 15px;
+    color: rgb(142, 175, 23);
+  }
+  .main__pageContent-mainContent-FCA-UNC-h4 {
+    font-size: 12px;
+    color: rgb(86, 151, 43);
+  }
+  .main__pageContent-mainContent-FCA-UNC-h5 {
+    font-size: 9px;
+    color: rgb(70, 143, 21);
+  }
+  .main__pageContent-mainContent-FCA-UNC-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 15%;
+  }
+  .main__pageContent-mainContent-FCA-UNC-ul {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100vw;
+  }
+  .main__pageContent-mainContent-FCA-UNC-p {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 0px;
+    text-align: center;
+    font-size: 11px;
+    margin: 0 5px;
+    width: 70px;
+  }
+  .FCA-UNC {
+    display: flex;
+    flex-direction: column;
+  }
+  .FCA-UNC1 {
+    display: inline-block;
+    height: min-content;
+    width: 70px;
+    margin-right: 5px;
+  }
+  .footer {
+    font-size: small;
+  }
+  .footer1 {
+    font-size: small;
+    color: #fff;
+  }
+}
