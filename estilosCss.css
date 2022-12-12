@@ -83,12 +83,13 @@
   margin-bottom: 20px;
   font-size: large;
 }
-.in {
+.body {
+  display: flex;
   background-image: url(https://www.gestionpasiva.com/wp-content/uploads/ejemplo-de-fondo-indexado.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
+  margin: 0;
 }
 .agro {
   background-image: url(https://i.pinimg.com/originals/2b/e6/12/2be61219e72a96deb3e75deb02552864.jpg);
@@ -96,12 +97,18 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
+  padding: 25px;
+  text-align: center;
+  width: 100vh;
 }
 .prog {
-  background-image: url(https://sites.google.com/site/informaticalol4521/_/rsrc/1414539291538/portada-1/wallpaper-informatica_2.jpg);
+  /* background-image: url(https://sites.google.com/site/informaticalol4521/_/rsrc/1414539291538/portada-1/wallpaper-informatica_2.jpg); */
+  background-color: #ddcecd;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 25px;
+  text-align: center;
 }
 ul {
   list-style: none;
@@ -117,26 +124,36 @@ a {
 .pageContent {
   display: flex;
   justify-content: space-between;
+  width: 100vw;
+}
+.mainContent {
+  justify-content: center;
+  width: 100vw;
 }
 .main__h1 {
   text-align: center;
-  font-size: 95px;
+  font-size: 75px;
   text-transform: uppercase;
-  color: rgb(17, 167, 109);
+  color: #eee5e5;
+  padding-top: 6px;
+  background-color: #19647e;
+  /* color: rgb(17, 167, 109); */
 }
 .main__h1-in {
   text-align: center;
   font-size: 115px;
   text-transform: uppercase;
-  color: rgb(17, 167, 109);
+  color: #37392e;
 }
 .main__pageContent-mainContent-FCA-UNC-h2 {
-  font-size: 45px;
-  color: rgb(20, 34, 34);
+  font-size: 55px;
+  color: #37392e;
+  background-color: #28afb0;
 }
 .main__pageContent-mainContent-FCA-UNC-h3 {
   font-size: 40px;
-  color: rgb(100, 54, 54);
+  color: #37392e;
+  background-color: #eee5e5;
 }
 .main__pageContent-mainContent-FCA-UNC-h4 {
   font-size: 30px;
@@ -155,6 +172,7 @@ a {
 .main__pageContent-mainContent-FCA-UNC-ul {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .main__pageContent-mainContent-FCA-UNC-p {
   max-width: 110px;
@@ -204,6 +222,15 @@ a {
 }
 .FCA-UNC1 {
   display: inline-block;
+}
+.aclaraciones-h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(42, 18, 176);
+}
+.p__aclaraciones {
+  font-size: 17px;
+  color: rgb(162, 162, 162);
 }
 
 @media only screen and (max-width: 800px) {
